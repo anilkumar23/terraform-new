@@ -34,7 +34,7 @@ resource "aws_iam_role_policy_attachment" "demo-node-AmazonEC2ContainerRegistryR
 }
 
 resource "aws_iam_instance_profile" "demo-node" {
-  name = "terraform-eks-demo"
+  name = "terraform-eks-demo-new"
   role = aws_iam_role.demo-node.name
 }
 
